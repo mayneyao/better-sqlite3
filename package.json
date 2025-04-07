@@ -1,5 +1,5 @@
 {
-  "name": "better-sqlite3",
+  "name": "@eidos.space/better-sqlite3",
   "version": "11.9.1",
   "description": "The fastest and simplest library for SQLite in Node.js.",
   "homepage": "http://github.com/WiseLibs/better-sqlite3",
