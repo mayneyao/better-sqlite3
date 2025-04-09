@@ -1,8 +1,8 @@
 {
   "name": "@eidos.space/better-sqlite3",
-  "version": "11.9.1",
+  "version": "11.9.2",
   "description": "The fastest and simplest library for SQLite in Node.js.",
-  "homepage": "http://github.com/WiseLibs/better-sqlite3",
+  "homepage": "http://github.com/mayneyao/better-sqlite3",
   "author": "Joshua Wise <joshuathomaswise@gmail.com>",
   "repository": {
     "type": "git",
