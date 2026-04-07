@@ -19,8 +19,9 @@ env:
   # Merge with NODE_BUILD_CMD when Node.js v18 is EOL
   NO_V18_NODE_BUILD_CMD: npx --no-install prebuild -r node -t 20.0.0 -t 22.0.0 -t 23.0.0 --include-regex 'better_sqlite3.node$'
   # See https://www.electronjs.org/docs/latest/tutorial/electron-timelines#version-support-policy
-  # Electron v25 EOL = 2023-12-05. v26 EOL = 2024-02-20. v27 EOL = 2024-04-16. v28 EOL = 2024-06-11. v29 EOL = 2024-08-20.
-  ELECTRON_BUILD_CMD: npx --no-install prebuild -r electron -t 32.0.0 -t 33.0.0 -t 34.0.0 -t 35.0.0 --include-regex 'better_sqlite3.node$'
+  # Electron v40 is the version used by Eidos desktop app
+  # Including v35-v41 for broader compatibility
+  ELECTRON_BUILD_CMD: npx --no-install prebuild -r electron -t 35.0.0 -t 36.0.0 -t 37.0.0 -t 38.0.0 -t 39.0.0 -t 40.0.0 -t 41.0.0 --include-regex 'better_sqlite3.node$'
 
 jobs:
   test:
